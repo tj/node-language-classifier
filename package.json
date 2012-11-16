@@ -4,7 +4,9 @@
   "description": "Programming language classifier",
   "keywords": [],
   "author": "TJ Holowaychuk <tj@learnboost.com>",
-  "dependencies": {},
+  "dependencies": {
+    "classifier": "~0.1.0"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*",
