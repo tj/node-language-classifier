@@ -31,6 +31,8 @@ lang('#include <stdio.h>');
   - ruby
   - python
   - javascript
+  - objective-c
+  - c++
   - c
 
 ## License 
