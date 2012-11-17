@@ -37,7 +37,8 @@ lang('#include <stdio.h>');
   - shell
   - c++
   - c
+  - coffee-script
 
-## License 
+## License
 
   MIT
