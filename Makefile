@@ -4,4 +4,7 @@ test:
 		--require should \
 		--reporter spec
 
-.PHONY: test
+memory:
+	@node train
+
+.PHONY: test memory
