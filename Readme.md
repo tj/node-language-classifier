@@ -32,6 +32,9 @@ lang('#include <stdio.h>');
   - python
   - javascript
   - objective-c
+  - html
+  - css
+  - shell
   - c++
   - c
 
