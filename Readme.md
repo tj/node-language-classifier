@@ -26,6 +26,13 @@ lang('#include <stdio.h>');
 
   To train simply invoke `make memory`.
 
+## Supported languages
+
+  - ruby
+  - python
+  - javascript
+  - c
+
 ## License 
 
   MIT
