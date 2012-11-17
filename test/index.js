@@ -11,7 +11,7 @@ describe('should classify', function(){
   });
 
   it('javascript', function(){
-    lang('function foo(){}').should.equal('javascript');
+    lang('Foo.prototype.bar = function(){}').should.equal('javascript');
   });
 
   it('c', function(){
