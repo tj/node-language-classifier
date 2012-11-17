@@ -13,7 +13,9 @@ describe('should classify', function(){
       file = path.join('test/cases', file);
       var str = read(file, 'utf8');
       var ret = lang(str);
-      ret.should.equal(base);
+      if (ret != base) {
+        throw new Error('expected "' + base + '", got "' + ret + '"');
+      }
     })
   });
 });
