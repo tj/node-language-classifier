@@ -9,7 +9,7 @@ describe('should classify', function(){
   readdir('test/cases').forEach(function(file){
     var ext = path.extname(file);
     var base = path.basename(file, ext);
-    it(ext, function(){
+    it(base, function(){
       file = path.join('test/cases', file);
       var str = read(file, 'utf8');
       var ret = lang(str);
