@@ -12,7 +12,6 @@ var fs = require('fs')
 
 var classifier = new Bayesian;
 
-console.log();
 readdir('training-set').forEach(function(file){
   file = path.join('training-set', file);
   var ext = path.extname(file);
