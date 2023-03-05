@@ -38,6 +38,7 @@ lang('#include <stdio.h>');
   - c++
   - c
   - coffee-script
+  - lua
 
 ## License
 
